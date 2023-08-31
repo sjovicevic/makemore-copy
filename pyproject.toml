@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "makemore"
+version = "0.1.0"
+description = "Replicating Andrej Karpathy's makemore"
+authors = ["Stefan Jovicevic <jovicevicst@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.1"
+numpy = "^1.25.2"
+pandas = "^2.1.0"
+matplotlib = "^3.7.2"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
